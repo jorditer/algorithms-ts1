@@ -1,7 +1,8 @@
 import two_crystal_balls from "@code/TwoCrystalBalls";
 
 test("two crystal balls", function () {
-    let idx = Math.floor(Math.random() * 10000);
+    // let idx = Math.floor(Math.random() * 10000);
+    let idx = 9999;
     const data = new Array(10000).fill(false);
 
     for (let i = idx; i < 10000; ++i) {
